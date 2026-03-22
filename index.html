@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Priyanshu Sharma - Portfolio | Aspiring Software Engineer"
+    />
+    <title>Priyanshu.dev | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="container navbar">
+        <a href="index.html" class="brand">Priyanshu.dev</a>
+        <ul class="menu">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          Theme
+        </button>
+        <a
+          class="resume-btn"
+          href="assets/CV_Priyanshu_Sharma1.pdf"
+          target="_blank"
+          rel="noreferrer"
+          >Resume</a
+        >
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-wrap">
+          <div class="profile-pill">profile</div>
+          <p class="tag">Aspiring Software Engineer | CSE Undergraduate</p>
+          <h1>Priyanshu Sharma</h1>
+          <p class="typed-line">
+            I build <span id="typed-role" class="typed-role"></span>
+          </p>
+          <p class="lead">
+            Computer Science undergraduate at Lovely Professional University
+            with practical experience in MERN development, problem solving, and
+            building user-focused software projects.
+          </p>
+          <div class="hero-cta">
+            <a href="projects.html" class="btn btn-primary">View Projects</a>
+            <a href="contact.html" class="btn btn-ghost">Contact Me</a>
+          </div>
+
+          <div class="stats">
+            <article class="stat-card reveal">
+              <h3 class="counter" data-target="3">0</h3>
+              <p>Major Projects</p>
+            </article>
+            <article class="stat-card reveal">
+              <h3 class="counter" data-target="150">0</h3>
+              <p>Coding Problems Solved</p>
+            </article>
+            <article class="stat-card reveal">
+              <h3 class="counter" data-target="2027">0</h3>
+              <p>Expected Graduation</p>
+            </article>
+          </div>
+
+          <div class="marquee hero-marquee">
+            <div class="marquee-track">
+              <span>Java</span><span>C++</span><span>C</span><span>JavaScript</span>
+              <span>HTML</span><span>React</span><span>Node.js</span>
+              <span>MySQL</span><span>Git</span><span>GitHub</span>
+              <span>Docker</span>
+            </div>
+            <div class="marquee-track" aria-hidden="true">
+              <span>Java</span><span>C++</span><span>C</span><span>JavaScript</span>
+              <span>HTML</span><span>React</span><span>Node.js</span>
+              <span>MySQL</span><span>Git</span><span>GitHub</span>
+              <span>Docker</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="container contact-wrap">
+        <h2>Priyanshu.dev</h2>
+        <p>
+          <a href="about.html">About</a> | <a href="skills.html">Skills</a> |
+          <a href="projects.html">Projects</a> |
+          <a href="experience.html">Experience</a> |
+          <a href="contact.html">Contact</a>
+        </p>
+        <p class="copy">Copyright <span id="year"></span> Priyanshu Sharma</p>
+      </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">Top</button>
+    <script src="script.js"></script>
+  </body>
+</html>
