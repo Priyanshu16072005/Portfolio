@@ -11,4 +11,6 @@ Projects page: project-telemedicine.png, project-weather-forecast.png, project-f
 
 Experience (W3 Grads training): training-certificate.png
 
+About page headshot: profile-photo.png
+
 Optional: copy your CV here as CV_Priyanshu_Sharma1.pdf for Resume links.
