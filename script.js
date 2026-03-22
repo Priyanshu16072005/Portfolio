@@ -195,15 +195,3 @@ if (certificateUpload && certificatePreview) {
   });
 }
 
-const trainingCertUpload = document.getElementById("training-certificate-upload");
-const trainingCertPreview = document.getElementById("training-certificate-preview");
-if (trainingCertUpload && trainingCertPreview) {
-  trainingCertUpload.addEventListener("change", (event) => {
-    const file = event.target.files?.[0];
-    if (!file) return;
-    const url = URL.createObjectURL(file);
-    trainingCertPreview.src = url;
-    trainingCertPreview.alt = "W3 Grads MERN + Generative AI training certificate";
-    trainingCertPreview.removeAttribute("onerror");
-  });
-}

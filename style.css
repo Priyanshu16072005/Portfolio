@@ -421,8 +421,9 @@ h1 {
 .project-photo img {
   display: block;
   width: 100%;
-  height: 170px;
-  object-fit: cover;
+  height: 190px;
+  object-fit: contain;
+  background: rgba(0, 0, 0, 0.18);
 }
 
 .repo-link {
@@ -486,8 +487,7 @@ h1 {
   font-weight: 600;
 }
 
-#certificate-upload,
-#training-certificate-upload {
+#certificate-upload {
   border: 1px dashed var(--line);
   border-radius: 10px;
   padding: 0.55rem;
@@ -495,10 +495,18 @@ h1 {
   color: var(--text);
 }
 
-.training-cert-wrap {
+.training-cert-section {
   margin-top: 1.25rem;
   display: grid;
-  gap: 0.5rem;
+  gap: 0.65rem;
+}
+
+.training-cert-heading {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: 0.02em;
 }
 
 .training-cert-photo img {
@@ -625,6 +633,21 @@ footer {
 
 .contact-wrap a:hover {
   color: #fff;
+}
+
+.footer-live {
+  margin-top: 0.75rem;
+  margin-bottom: 0;
+  font-size: 0.92rem;
+}
+
+.footer-live a {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.footer-live a:hover {
+  text-decoration: underline;
 }
 
 .copy {
